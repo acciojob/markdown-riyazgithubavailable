@@ -27,7 +27,7 @@ const  App = () => {
       <div className="preview">
        { markdown && (
         <div className='loading'>
-            <h1>{markdown}</h1>
+            <bold>{markdown}</bold>
         </div>
        )
        }
