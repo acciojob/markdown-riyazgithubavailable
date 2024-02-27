@@ -21,7 +21,7 @@ const  App = () => {
         <textarea
           value={markdown}
           onChange={handleMarkdownChange}
-          placeholder="Write your Markdown here..."
+          placeholder=" # Write your Markdown here..."
         />
       </div>
       <div className="preview">
